@@ -4,7 +4,8 @@
   "description": "Digital Generation",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -30,7 +31,9 @@
   },
   "homepage": "https://github.com/zokirjs/taskbot#readme",
   "dependencies": {
-    "dotenv": "^10.0.0",
-    "telegraph": "^0.8.22"
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
   }
 }
