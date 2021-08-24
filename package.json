@@ -1,0 +1,36 @@
+{
+  "name": "taskbot",
+  "version": "1.0.0",
+  "description": "Digital Generation",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zokirjs/taskbot.git"
+  },
+  "keywords": [
+    "task",
+    "telegram",
+    "bot",
+    "telegrambot",
+    "dg",
+    "digital",
+    "generation",
+    "digitalgeneration",
+    "camp",
+    "home",
+    "hometask"
+  ],
+  "author": "zokirjs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zokirjs/taskbot/issues"
+  },
+  "homepage": "https://github.com/zokirjs/taskbot#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "telegraph": "^0.8.22"
+  }
+}
